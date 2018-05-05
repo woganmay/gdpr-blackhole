@@ -1,0 +1,13 @@
+{
+    "name": "woganmay/gdpr-blackhole",
+    "description": "A list of all the EU IP ranges",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wogan May",
+            "email": "wogan.may@gmail.com"
+        }
+    ],
+    "require": {}
+}
