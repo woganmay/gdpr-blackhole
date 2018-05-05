@@ -20,6 +20,7 @@ foreach(scandir("../zone6") as $file)
 
 @unlink("../eu-cidr4.txt");
 @unlink("../eu-cidr6.txt");
+@unlink("../eu-ranges.txt");
 
 file_put_contents("../eu-cidr4.txt", $IPv4);
 file_put_contents("../eu-cidr6.txt", $IPv6);

@@ -11,11 +11,16 @@ This repo assists with the latter.
 Disclaimer
 ----------
 
-The GDPR is brand new legal territory. There's no clarity yet on how, when, or where certain regulations will be enforced.  here's every chance the GDPR will come to apply only to major commercial operators, especially given the [crazy-high penalties](https://www.gdpreu.org/compliance/fines-and-penalties/) (Up to €10 million on the lower level).
+The GDPR is brand new legal territory. There's no clarity yet on how, when, or where certain regulations will be enforced. There's every chance the GDPR will come to apply only to major commercial operators, especially given the [crazy-high penalties](https://www.gdpreu.org/compliance/fines-and-penalties/) (Up to €10 million on the lower level).
 
 That being said, if you're a small business (or side project) and you don't want to expose yourself to this sort of risk, preventing users from within the EU from using your services would go a long way to mitigating that risk. It's not bullet-proof, of course: EU residents can travel and use VPNs, and there's no guarantee that simply blocking the IP ranges of the EU is a perfect shield.
 
 Finally, this project makes absolutely no warranties whatsoever. It affords no protections against GDPR enforcement, and is not a substitute for legal advice. 
+
+About the UK
+------------
+
+As of right now, the United Kingdom is a member of the EU, and so the ranges are included (gb.txt) in both sets. If you'd rather remove them, I've included the compilation script. Just clone the repo, delete any countries you don't want to block, and run `php scripts/compile.php` to rebuild all 3 files.
 
 Usage
 -----
